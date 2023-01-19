@@ -54,7 +54,7 @@ const TESTS = [
             },
             {
                 which:"EI",
-                question: "When the way home overlaps with someone who you are interested in,\nwhat will you do?",
+                question: "When your way home overlaps with someone who you are interested in,\nwhat will you do?",
                 answers:[
                     {
                         type: "E",
@@ -75,23 +75,23 @@ const TESTS = [
                     {
                         type: "E",
                         score: 2,
-                        content: "I would like to visit famous tourist spots\nwhere I can interact with many people"
+                        content: "I would like to visit some famous tourist spots\nwhere I can interact with many people"
                     },
                     {
                         type: "I",
                         score: 5,
-                        content: "I would expect a trip that I can enjoy nature and my own time"
+                        content: "I would like a trip that I can enjoy nature and my own time"
                     },
                 ]
             },
             {
                 which:"SN",
-                question: "What can be your reaction when someone you have a crush on sends you a note?",
+                question: "What would your reaction be if someone you have a crush on sends you a note?",
                 answers:[
                     {
                         type: "S",
                         score: 2,
-                        content: "I will be thrilled and curious about what it will be about"
+                        content: "I would be thrilled and curious about what it will be about"
                     },
                     {
                         type: "N",
@@ -107,7 +107,7 @@ const TESTS = [
                     {
                         type: "S",
                         score: 2,
-                        content: "I would check all details of the house condition."
+                        content: "I would check every detail of the house's condition."
                     },
                     {
                         type: "N",
@@ -118,7 +118,7 @@ const TESTS = [
             },
             {
                 which:"SN",
-                question: "What do I think about in the early days of a relationship?",
+                question: "What do you think about in the early days of a relationship?",
                 answers:[
                     {
                         type: "S",
@@ -139,7 +139,7 @@ const TESTS = [
                     {
                         type: "T",
                         score: 2,
-                        content: "What happen?\nAre you okay?"
+                        content: "What happened?\nAre you okay?"
                     },
                     {
                         type: "F",
@@ -150,7 +150,7 @@ const TESTS = [
             },
             {
                 which:"TF",
-                question: "When your lover is 30 minutes late for an appointment with you,\nwhat can be your reaction?",
+                question: "When your lover is 30 minutes late for an appointment with you,\nwhat would your reaction be?",
                 answers:[
                     {
                         type: "T",
@@ -187,12 +187,12 @@ const TESTS = [
                     {
                         type: "J",
                         score: 2,
-                        content: "I may be upset because my original plan has been changed,\nbut I will try other restaurant without panic."
+                        content: "I may be upset because my original plan has been changed,\nbut I will try another restaurant without panic."
                     },
                     {
                         type: "P",
                         score: 5,
-                        content: "I'm sorry, but I can't help it,\nso I look for another place nearby."
+                        content: "I'm sad, but I can't change it,\nso I look for another place nearby."
                     },
                 ]
             },
@@ -203,7 +203,7 @@ const TESTS = [
                     {
                         type: "J",
                         score: 2,
-                        content: "I like dates booked through\nrestaurant, cafe, and movie reservations"
+                        content: "I like dates booked through\na restaurant, cafe, or movie reservation"
                     },
                     {
                         type: "P",
@@ -214,7 +214,7 @@ const TESTS = [
             },
             {
                 which:"JP",
-                question: "What would you do when your lover suddenly asked you to watch another movie?",
+                question: "What would you do if your lover suddenly asked you to watch another movie?",
                 answers:[
                     {
                         type: "J",
@@ -2129,7 +2129,7 @@ const TESTS = [
             },
             {
                 which:"SN",
-                question: "When you lover is with his/her friends\nand you can't reach him,\nwhat can make you angry?",
+                question: "When your lover is with his/her friends\nand you can't reach him/her,\nwhat makes you angry?",
                 answers:[
                     {
                         type: "S",
@@ -2145,12 +2145,12 @@ const TESTS = [
             },
             {
                 which:"SN",
-                question: "When you confessed to the opposite sex you liked\nand the person accepted it, what would you do?",
+                question: "If you confessed to the opposite sex you liked\nand the person accepted it, what would you do?",
                 answers:[
                     {
                         type: "S",
                         score: 2,
-                        content: "I would be just thrilled and happy at the moment"
+                        content: "I would be thrilled and happy at the moment"
                     },
                     {
                         type: "N",
@@ -2187,18 +2187,18 @@ const TESTS = [
                     {
                         type: "F",
                         score: 5,
-                        content: "Things lovers talked about in the past"
+                        content: "Things we talked about in the past"
                     },
                 ]
             },
             {
                 which:"TF",
-                question: "What can be your reaction\nif your friend was depressed after a breakup?",
+                question: "What would your reaction be\nif your friend was depressed after a breakup?",
                 answers:[
                     {
                         type: "T",
                         score: 2,
-                        content: "Why did you break up ? did you eat?\nLet’s go out to eat with me"
+                        content: "Why did you break up? did you eat?\nLet’s go out to eat together"
                     },
                     {
                         type: "F",
@@ -2225,17 +2225,17 @@ const TESTS = [
             },
             {
                 which:"JP",
-                question: "What will you do when confessing to someone you like?",
+                question: "What would you do when confessing to someone you like?",
                 answers:[
                     {
                         type: "J",
                         score: 2,
-                        content: "I will set a date, make a plan,\nand prepare for a perfect confession"
+                        content: "I will set a date, make a plan,\nand prepare for the perfect confession"
                     },
                     {
                         type: "P",
                         score: 5,
-                        content: "Timing is important!\nI will wait for right time\nand atmosphere to confess"
+                        content: "Timing is important!\nI will wait for the right time\nand atmosphere to confess"
                     },
                 ]
             },
@@ -2246,7 +2246,7 @@ const TESTS = [
                     {
                         type: "J",
                         score: 2,
-                        content: "A planed date after reservation at café or restaurant"
+                        content: "A planed date after a reservation at café or restaurant"
                     },
                     {
                         type: "P",
@@ -2257,17 +2257,17 @@ const TESTS = [
             },
             {
                 which:"JP",
-                question: "If you lover suddenly visits over to your house,\nwhat can be your reaction?",
+                question: "If you lover suddenly visits your house,\nwhat would your reaction be?",
                 answers:[
                     {
                         type: "J",
                         score: 2,
-                        content: "Because I always keep my house clean,\nso I'll just clean it lightly"
+                        content: "Because I always keep my house clean,\ I just have to clean it lightly"
                     },
                     {
                         type: "P",
                         score: 5,
-                        content: "Urgently I will clear my house up"
+                        content: "I will urgently clean my house up"
                     },
                 ]
             },
@@ -2755,13 +2755,13 @@ const TESTS = [
                     {
                         type: "I",
                         score: 5,
-                        content: "I tend to only answer incoming questions."
+                        content: "I tend to only answer direct questions."
                     },
                 ]
             },
             {
                 which:"EI",
-                question: "What can be your reaction when\na talkative person talks to you at a new gathering?",
+                question: "What is your reaction when\na talkative person talks to you at a new gathering?",
                 answers:[
                     {
                         type: "E",
@@ -2803,7 +2803,7 @@ const TESTS = [
                     {
                         type: "N",
                         score: 5,
-                        content: 'Will I ever be a successful person?\nI will have to buy some buildings perhaps'
+                        content: 'Will I ever be a successful person?\nMaybe I will buy some buildings'
                     },
                 ]
             },
@@ -2819,7 +2819,7 @@ const TESTS = [
                     {
                         type: "N",
                         score: 5,
-                        content: "Tasks that I can freely apply my thoughts"
+                        content: "Tasks where I can freely apply my thoughts"
                     },
                 ]
             },
@@ -2846,18 +2846,18 @@ const TESTS = [
                     {
                         type: "T",
                         score: 2,
-                        content: "I honestly talk to my friend about it"
+                        content: "I talk honestly to my friend about it"
                     },
                     {
                         type: "F",
                         score: 5,
-                        content: "I make my friend aware of\nmy friend's faults indirectly"
+                        content: "I make my friend aware of\ntheir faults indirectly"
                     },
                 ]
             },
             {
                 which:"TF",
-                question: "A friend says the house he/she moved in is too cold.\nWhat can be your reaction?",
+                question: "A friend says the house he/she moved into is too cold.\nWhat would your reaction be?",
                 answers:[
                     {
                         type: "T",
@@ -2867,13 +2867,13 @@ const TESTS = [
                     {
                         type: "F",
                         score: 5,
-                        content: "It must have been too cold in this cold weather"
+                        content: "It must be too cold in this cold weather"
                     },
                 ]
             },
             {
                 which:"JP",
-                question: "What can be your reaction when\na new cafe opens near your house?",
+                question: "What is your reaction when\na new cafe opens near your house?",
                 answers:[
                     {
                         type: "J",
@@ -2894,7 +2894,7 @@ const TESTS = [
                     {
                         type: "J",
                         score: 2,
-                        content: "I clearly prepare the menu for right quantity in advance"
+                        content: "I carefully prepare the menu for the right quantity in advance"
                     },
                     {
                         type: "P",
